@@ -1,11 +1,19 @@
 canvas {
-	display: block;
-	margin: 50px auto;
-	box-shadow: 2px 2px 5px #BFBFBF,-2px -2px 5px #BFBFBF;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 2px 2px 5px #BFBFBF,-2px -2px 5px #BFBFBF;
 }
-input{
-	display: block;
-	position: relative;
-	left:48%;
-	bottom:10%;
+#reset{
+  position: relative;
+  left:50%;
+  transform:translateX(-50%);
+  bottom:10%;
+  padding:.3em .8em;
+  border:1px solid #446d88;
+  border-radius: .3em;
+  background: #58a linear-gradient(#77a0bb,#58a);
+  color:white;
+  box-shadow:.12em .15em gray;
+  font-size:80%;
+  line-height:1.5;
 }
