@@ -9,7 +9,7 @@ window.onload=function(){
 		initBoard();
 	}
 //赢法数组
-var wins=Array();
+var wins=[];
 	for (var i = 0 ; i < 15; i++) {
 		 wins[i]=Array();
 		for (var j = 0; j < 15; j++) {	
@@ -54,8 +54,8 @@ for (var i=0;i<11;i++){
 	}
 }
 //赢法的统计数组
-var myWin=Array();
-var pcWin=Array();
+var myWin=[];
+var pcWin=[];
 
 var initWin=function(){
 	for(var i=0;i<count;i++){
@@ -67,7 +67,7 @@ var initWin=function(){
 var chessBoard=Array();
 var initBoard=function(){
 	for (var i = 0 ; i < 15; i++) {
-		 chessBoard[i]=Array();
+		 chessBoard[i]=[];
 		for (var j = 0; j < 15; j++) {	
 				chessBoard[i][j]=0;
 			}
@@ -141,8 +141,8 @@ var pcAI=function(){
 	var myScore=Array();
 	var pcScore=Array();
 		for(var i=0;i<15;i++){
-			myScore[i]=Array();
-			pcScore[i]=Array();
+			myScore[i]=[];
+			pcScore[i]=[];
 			for(var j=0;j<15;j++){
 				myScore[i][j]=0;
 				pcScore[i][j]=0;
